@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>To-Do List</title>
+  <link rel="icon" href="pencil.png">
+
+  <!-- CSS stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="row">
+      <div class="intro col-lg-12">
+        <h1>My To-Do List</h1>
+      </div>
+    </div>
+
+    <div class="row helpText">
+      <div class="col-lg-12">
+        <p class="first">
+          To add items in the list type in the text box.
+        </p>
+        <p class="second">
+          Click the items to mark them as completed.
+        </p>
+        <p class="third">
+          Click the "X" to remove the item from the list.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <input id="userInput" type="text" placeholder="New Task..." maxlength="30">
+        <button type="button" id="enter" style="height: 40px">
+          <i class="fas fa-pencil-alt"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="col-12 offset-0 col-sm-8 offset-sm-2"></ul>
+      </div>
+    </div>
+
+  </div>
+  <script src="todolist.js" charset="utf-8"></script>
+</body>
+
+</html>
