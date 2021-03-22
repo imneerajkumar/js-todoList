@@ -1,15 +1,9 @@
 var enterButton = document.querySelector("#enter");
 var input = document.querySelector("#userInput");
-
 var ul = document.querySelector("ul");
-var item = document.querySelector("li");
 
 function inputLength(){
   return input.value.length;
-}
-
-function itemLength(){
-  return item.length;
 }
 
 enterButton.addEventListener("click", function(){
